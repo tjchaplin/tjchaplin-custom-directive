@@ -1,11 +1,11 @@
 {
   "name": "tjchaplin-custom-directive",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/tjchaplin/tjchaplin-custom-directive",
   "authors": [
     "timchaplin"
   ],
-  "main": "simpleDirective.js",
+  "main": "tjchaplinCustomDirective.js",
   "license": "MIT",
   "ignore": [
     "**/.*",

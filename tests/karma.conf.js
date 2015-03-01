@@ -5,7 +5,7 @@ module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '',
+    basePath: '../',
 
 
     // frameworks to use
@@ -17,7 +17,7 @@ module.exports = function(config) {
     files: [
       'bower_components/angular/angular.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
-      'simpleDirective.js',
+      'tjchaplinCustomDirective.js',
       'tests/**/*.js'
     ],
 

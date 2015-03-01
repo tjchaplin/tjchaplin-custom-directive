@@ -1,10 +1,10 @@
-describe('Given we are testing a simple directive',function(){
+describe('Given we are testing tjchaplinCustomDirective',function(){
 	var $compile = null;
 	var $rootScope = null;
 
 	beforeEach(function(){
 		//Initialize module
-		module('simpleDirective');
+		module('tjchaplinCustomDirective');
 
 		//Get compile and rootscope
 		inject(function(_$compile_, _$rootScope_){
@@ -20,6 +20,6 @@ describe('Given we are testing a simple directive',function(){
 		$rootScope.$digest();
 
 		//Expectation
-		expect(element.html()).toContain("A Custom Directive");
+		expect(element.html()).toContain("A tjchaplin Custom Directive");
 	});
 });
